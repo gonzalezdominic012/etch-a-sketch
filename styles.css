@@ -1,0 +1,36 @@
+h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+#container {
+    display: inline-grid;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-collapse: black;
+    border-style: solid;
+}
+
+.buttons-top {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    }
+
+button {
+    height: 40px;
+    width: 200px;
+    margin: 10px 40px;
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: wheat;
+    text-align: center;
+}
